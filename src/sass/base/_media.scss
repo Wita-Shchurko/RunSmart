@@ -1,0 +1,234 @@
+@media (max-width: 991px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .container {
+        max-width: 620px;
+    }
+    .carousel {
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 550px; 
+    }
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-weight: 300;
+            font-size: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    .button {
+        width: 106px;
+        height: 20px;
+        font-size: 10px;
+        &_main {
+            width: 303px;
+            height: 54px;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 67px;
+        }
+        &_submit {
+            width: 100%;
+            height: 58px;
+            font-size: 16px;
+        }
+        &_mini {
+            width: 110px;
+            height: 36px;
+            font-size: 14px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .advantages {
+        &__icon {
+            padding: 0 10px 0 10px;
+            font-size: 13px;
+        }
+        &__subtitle {
+            font-size: 18px;
+    
+        }
+    }
+    .consultation {
+        text-align: center;
+        .title {
+            &_left {
+                text-align: center;
+            }
+        }
+        .feed-form {
+            margin: 36px auto 0 auto;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 80%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        .catalog__tab {
+            width: 168px;
+        }
+        .catalog__content {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        justify-content: space-around;
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    .promo {
+        min-height: 400px;
+        &__header {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__icons {
+            width: 300px;
+        }
+        &__icon {
+            width: 95px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 14px;
+            color: #FFFFFF;
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
+        &__link {
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            margin-top: 18px;
+            a {
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+    }
+    .button {
+        &_main {
+            width: 288px;
+            height: 50px;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 67px;
+        }
+    }
+    .advantages {
+        min-height: 400px;
+        .title {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        &__subtitle {
+            font-size: 14px;
+        }
+        .title {
+            &_left {
+                font-size: 21px;
+            }
+        }
+    }
+    .catalog {
+        .catalog__tabs {
+            flex-direction: column;
+            height: 180px;
+            justify-content: space-around;
+        }
+        .catalog__tab {
+            width: 100%;
+            transform: skewX(0deg);
+            div {
+                transform: skewX(0deg);
+            }
+        }
+    }
+    .reviews {
+        &-item {
+            &__block {
+                flex-direction: column;
+                align-items: center;
+            }
+            &__img {
+                margin-bottom: 15px;
+                margin-left: 30px;
+            }
+            &__text {
+                padding: 0 15px;
+                text-align: center;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%!important ;
+            padding: 50px 10px 56px 10px!important ;
+        }
+        &__address {
+            font-size: 17px!important ;
+        }
+    }
+    .modal__close {
+            right: 40px!important ;
+            top: 7px!important ;
+    }
+}
